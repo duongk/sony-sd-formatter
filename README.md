@@ -25,6 +25,10 @@ the card.  When the card is inserted into the camera, the camera will
 automatically build out the remain directory structure and files making it
 ready for use.
 
+# APP WINDOW EXAMPLE
+[![Application Window](https://github.com/duongk/sony-sd-formatter/blob/main/app_window.png)](https://github.com/duongk/sony-sd-formatter/blob/main/app_window.png)
+
 # VERSIONs
 
 0.1 Beta - Only tested MAC version so far [May 28, 2026]
+
