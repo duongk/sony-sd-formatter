@@ -32,3 +32,29 @@ ready for use.
 
 0.1 Beta - Only tested MAC version so far [May 28, 2026]
 
+# COMPILED APPS
+I have created a installed image for MAC.  However, I have no way of testing the install on a 
+machine that does not already have all the installed packages.  I also do not have a developer 
+license to sign the code.  You will need to do a security override if you want use the image
+install.
+
+From a terminal.
+```bash
+
+xattr -cr
+```
+# BUILD COMMAND on MAC
+
+Make sure you have all the required Python packages listed in the 'requirements.txt' file.
+
+Run the following command to build the mac bundle:
+
+```bash
+python3 -m PyInstaller --noconsole --windowed --clean \
+--hidden-import=PySide6 \
+--hidden-import=shiboken6 \
+--name="Sony Card Formatter" \
+--icon=app_icon.icns \
+sony_formatter.py
+
+```
